@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <WebView
+        android:layout_width="200px"
+        android:layout_marginTop="30px"
+        android:layout_height="200px"
+        android:layout_gravity="center"
+        android:id="@+id/webView" />
+    <Button
+        android:layout_width="440px"
+        android:layout_gravity="center"
+        android:layout_marginTop="30px"
+        android:layout_height="80px"
+        android:id="@+id/chgbtn"
+        android:background="@drawable/btn_back"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:text="Change Password"/>
+    <Button
+        android:layout_width="440px"
+        android:layout_gravity="center"
+        android:layout_marginTop="10px"
+        android:layout_height="80px"
+        android:id="@+id/logout"
+        android:background="@drawable/btn_blue_back"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:text="Logout"/>
+
+</LinearLayout>
